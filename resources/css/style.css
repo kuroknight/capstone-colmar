@@ -1,0 +1,56 @@
+
+  /* header section */
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+nav ul {
+  display: flex;
+  height: 64px;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 8px;
+  background-color: aqua;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-right: 16px;
+  background-color: white;
+}
+
+  /* Main banner section */
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.banner img {
+  width: 60%;
+  margin: 32px 24px;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-text h3 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 8px;
+  background-color: dimgray;
+}

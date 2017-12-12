@@ -1,3 +1,7 @@
+body {
+  font-family: calibri, sans-serif;
+}
+
 
   /* header section */
 header {
@@ -69,6 +73,7 @@ li {
 
 .practice img {
   margin: 32px 24px;
+  height: 35%;
 }
 
 .practice-text {
@@ -78,8 +83,8 @@ li {
   /* Information section (right) */
 .campus-info {
   width: 40%;
+  border-left: 1px outset lightgray;
 }
-
 
 .info {
   display: flex;
@@ -88,7 +93,15 @@ li {
 
 .info img {
   margin: 16px;
+  width: 80%;
 }
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .text {
   display: flex;
@@ -112,7 +125,6 @@ li {
   justify-content: center;
   align-items: center;
   padding-top: 32px;
-  margin-top: 32px;
   background-color: lightgray;
 }
 
@@ -126,10 +138,65 @@ li {
 .item {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   margin: 16px;
-  width: 28%;
+  width: 33%;
+  background-color: white;
 }
 
 .item img {
+  width: 100%;
+}
+
+  /* Thesis exhibit section */
+.thesis {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 32px 0px;
+}
+
+.exhibit {
+  display: flex;
+}
+
+.video {
+  width: 60%;
+}
+
+.video video {
+  width: 90%;
+  margin: 24px;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.company img {
+  width: 35%;
+  height: 50%;
+  margin: 16px;
+}
+
+.exhibit-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.fisma,
+video {
+  background-color: lightgray;
+}
+
+  /* footer*/
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  border-top: 1px solid lightgray;
+  font-size: 0.75em;
 }

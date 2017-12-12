@@ -30,7 +30,7 @@ li {
 }
 
   /* Main banner section */
-.banner {
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,4 +53,83 @@ li {
   width: 100%;
   padding: 8px;
   background-color: dimgray;
+}
+
+  /* Information section (left) */
+.information {
+  display: flex;
+  justify-content: center;
+}
+
+.practice {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.practice img {
+  margin: 32px 24px;
+}
+
+.practice-text {
+  margin-left: 24px;
+}
+
+  /* Information section (right) */
+.campus-info {
+  width: 40%;
+}
+
+
+.info {
+  display: flex;
+  flex-direction: row;
+}
+
+.info img {
+  margin: 16px;
+}
+
+.text {
+  display: flex;
+  width: 65%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.guest {
+  background-color: lightgray;
+}
+
+.link {
+  padding-top: 16px;
+}
+
+  /*start learning section */
+.courses {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 32px;
+  margin-top: 32px;
+  background-color: lightgray;
+}
+
+.course-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 16px 56px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 16px;
+  width: 28%;
+}
+
+.item img {
 }

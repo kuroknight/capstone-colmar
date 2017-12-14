@@ -279,7 +279,7 @@ footer {
 }
 
 .text {
-  padding: 0 0 44px 24px;
+  margin: 0 0 24px 24px;
 }
 
 .text h3,
@@ -309,6 +309,11 @@ footer {
 }
 
   /* Thesis section */
-
+.video,
+.video video {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 }

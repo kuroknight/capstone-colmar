@@ -1,7 +1,12 @@
 body {
   font-family: calibri, sans-serif;
+  font-size: 16px;
+  color: dimgrey;
 }
 
+.mobile {
+  display: none;
+}
 
   /* header section */
 header {
@@ -59,9 +64,15 @@ li {
 .banner-text h3 {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 80%;
   padding: 8px;
   background-color: dimgray;
+  color: white;
+}
+
+.banner-text p {
+  font-size: 1.4rem;
+  font-weight: 550;
 }
 
   /* Information section (left) */
@@ -206,7 +217,7 @@ video {
   background-color: lightgray;
 }
 
-  /* footer*/
+  /* footer */
 footer {
   display: flex;
   flex-direction: row;
@@ -215,4 +226,89 @@ footer {
   padding: 16px 24px;
   border-top: 1px solid lightgray;
   font-size: 0.75em;
+}
+
+  /* Media Queries */
+@media only screen and (max-width: 666px) {
+  .hide {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+  }
+  /* header section */
+  .logo {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0;
+  }
+
+  /* main banner section */
+.main {
+  flex-direction: column;
+}
+
+.banner img {
+  width: 100%;
+  margin: 0;
+}
+
+.banner-text {
+  margin: 16px 16px;
+}
+
+.banner-text h1 {
+  margin-bottom: 12px;
+}
+
+  /* Information section */
+.campus-info {
+  width: 100%;
+  border: none;
+}
+
+.info {
+  flex-direction: column;
+}
+
+.info img {
+  width: 90%;
+  margin: 16px;
+}
+
+.text {
+  padding: 0 0 44px 24px;
+}
+
+.text h3,
+.text p {
+  margin: 0;
+  padding: 0;
+}
+
+  /* Start learning section */
+.courses {
+  background-color: white;
+  padding: 0;
+}
+
+.course-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-list h3 {
+  width: 100%;
+  padding: 16px 24px 24px 16px;
+  margin: 4px 16px;
+  background-color: lightgrey;
+}
+
+  /* Thesis section */
+
+
 }

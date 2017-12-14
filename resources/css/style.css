@@ -22,7 +22,12 @@ nav ul {
   align-items: center;
   justify-content: space-between;
   margin-right: 8px;
-  background-color: aqua;
+  background-color: lightblue;
+}
+
+.margin {
+  margin-right: 0;
+  padding-right: 24px;
 }
 
 li {
@@ -73,7 +78,7 @@ li {
 
 .practice img {
   margin: 32px 24px;
-  height: 35%;
+  width: 90%;
 }
 
 .practice-text {
@@ -89,6 +94,7 @@ li {
 .info {
   display: flex;
   flex-direction: row;
+  margin-bottom: 32px;
 }
 
 .info img {
@@ -147,6 +153,15 @@ li {
   width: 100%;
 }
 
+.item h3,
+.item p {
+  margin-left: 20px
+}
+
+.item:last-child {
+  padding-bottom: 24px;
+}
+
   /* Thesis exhibit section */
 .thesis {
   display: flex;
@@ -161,11 +176,12 @@ li {
 
 .video {
   width: 60%;
+  padding-left: 24px;
 }
 
 .video video {
   width: 90%;
-  margin: 24px;
+  margin: 24px 24px 24px 0;
 }
 
 .company {
